@@ -1,0 +1,84 @@
+{
+  "version": 2,
+  "dgSpecHash": "QQPGPSwiws0iJWeClI/CpMAWMA6hf12iVhjBaunF9EuoaKRowlsz8KMjllCil882+6zaAGWZfdr+LoD9lGzBXA==",
+  "success": false,
+  "projectFilePath": "C:\\Evelyn\\resp\\Personal\\Challenge\\Test\\WebUnitTest\\WebUnitTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EvelynMota\\.nuget\\packages\\mstest.testadapter\\2.1.2\\mstest.testadapter.2.1.2.nupkg.sha512",
+    "C:\\Users\\EvelynMota\\.nuget\\packages\\mstest.testframework\\2.1.2\\mstest.testframework.2.1.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto ChallengeApi no es compatible con net48 (.NETFramework,Version=v4.8). El proyecto ChallengeApi admite: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "ChallengeApi",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto WebApplicationBlog no es compatible con net48 (.NETFramework,Version=v4.8). El proyecto WebApplicationBlog admite: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "WebApplicationBlog",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto ChallengeApi no es compatible con net48 (.NETFramework,Version=v4.8) / win. El proyecto ChallengeApi admite: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "ChallengeApi",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto WebApplicationBlog no es compatible con net48 (.NETFramework,Version=v4.8) / win. El proyecto WebApplicationBlog admite: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "WebApplicationBlog",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto ChallengeApi no es compatible con net48 (.NETFramework,Version=v4.8) / win-x64. El proyecto ChallengeApi admite: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "ChallengeApi",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto WebApplicationBlog no es compatible con net48 (.NETFramework,Version=v4.8) / win-x64. El proyecto WebApplicationBlog admite: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "WebApplicationBlog",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto ChallengeApi no es compatible con net48 (.NETFramework,Version=v4.8) / win-x86. El proyecto ChallengeApi admite: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "ChallengeApi",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto WebApplicationBlog no es compatible con net48 (.NETFramework,Version=v4.8) / win-x86. El proyecto WebApplicationBlog admite: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "WebApplicationBlog",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}

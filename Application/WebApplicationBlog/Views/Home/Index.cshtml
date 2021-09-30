@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+    List<Articles> articulo = (List<Articles>)ViewBag.articulo;
+
+}
+
+
+<table>
+    <tr>
+    </tr>
+
+    @foreach (var art in articulo)
+    {
+        <tr>
+            <td>
+                <div class="h2"> <a href=@art.url> @art.title</a></div>
+                <div class="h4">@art.description</div>
+                <div class="h4">@art.content</div>
+            </td>
+            <td>
+
+                <img src="@art.image" width="400" />
+            </td>
+        </tr>
+    }
+
+</table>
